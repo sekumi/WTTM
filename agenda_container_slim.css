@@ -11,16 +11,16 @@ th {
  
 .table td,
 .table th {
-  background-color: #fff!important
+  background-color: #fff !important
 }
  
 .table {
-  border-collapse: collapse!important
+  border-collapse: collapse !important
 }
  
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #ddd!important
+  border: 1px solid #ddd !important
 }
 
  
@@ -28,7 +28,7 @@ input,
 button,
 select,
 textarea {
-  font-family: Trebucet MS, Helvetica, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: inherit;
   line-height: inherit
 }
@@ -65,10 +65,9 @@ ol ol {
 .membersonly:hover {
   color: inherit;
   text-decoration: none;
-  textshadow: 0px 0px 1px maroon;
+  text-shadow: 0px 0px 1px maroon;
 }
-.membersonly,
-{
+.membersonly {
   color: maroon
 }
 .membersonly:visited {
@@ -105,9 +104,9 @@ tbody.collapse.in {
   background-color: #fff;
   border: 1px solid transparent;
   border-radius: 4px;
-  -webkit-box-shadw: 0 1px 1px
+  -webkit-box-shadow: 0 1px 1px
 rgba(0, 0, 0, .05);
-  box-shaow: 0 1px 1px rgba(0,
+  box-shadow: 0 1px 1px rgba(0,
 0, 0, .05)
 }
 .panel-body {
@@ -115,7 +114,7 @@ rgba(0, 0, 0, .05);
 }
 .panel-heading {
   padding: 10px 15px;
-  border-botom: 1px solid transparent;
+  border-bottom: 1px solid transparent;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px
 }
@@ -203,4 +202,3 @@ rgba(0, 0, 0, .05);
 .panel-body:after {
   clear: both
 }
-
